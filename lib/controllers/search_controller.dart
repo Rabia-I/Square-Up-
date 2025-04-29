@@ -1,12 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/constants.dart';
-import 'package:tiktok_tutorial/models/user.dart';
+import 'package:square_up_fresh/constants.dart';
+import 'package:square_up_fresh/models/user.dart';  // Import AppUser model
 
 class SearchController extends GetxController {
-  final Rx<List<User>> _searchedUsers = Rx<List<User>>([]);
+  final Rx<List<AppUser>> _searchedUsers = Rx<List<AppUser>>([]);  // Use AppUser here
 
-  List<User> get searchedUsers => _searchedUsers.value;
+  List<AppUser> get searchedUsers => _searchedUsers.value;
 
   searchUser(String typedUser) async {
     _searchedUsers.bindStream(firestore
@@ -14,9 +14,9 @@ class SearchController extends GetxController {
         .where('name', isGreaterThanOrEqualTo: typedUser)
         .snapshots()
         .map((QuerySnapshot query) {
-      List<User> retVal = [];
+      List<AppUser> retVal = [];  // Use AppUser here
       for (var elem in query.docs) {
-        retVal.add(User.fromSnap(elem));
+        retVal.add(AppUser.fromSnap(elem));  // Convert to AppUser
       }
       return retVal;
     }));

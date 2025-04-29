@@ -1,43 +1,83 @@
 {
   "project_info": {
-    "project_number": "21441704756",
-    "project_id": "tiktok-tutorial-65ce1",
-    "storage_bucket": "tiktok-tutorial-65ce1.appspot.com"
+    "project_number": "645966001600",
+    "project_id": "square-up-firebase",
+    "storage_bucket": "square-up-firebase.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:21441704756:android:8225d7afdf2ede7d286b61",
+        "mobilesdk_app_id": "1:645966001600:android:3d38995446dac3e4f38425",
         "android_client_info": {
-          "package_name": "com.example.tiktok_tutorial"
+          "package_name": "com.example.final_project"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "21441704756-77gmrfeiospqhqfks3jrqu8u3n1pf6eg.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDc0ChR9DPfpdfNhpG2Pdt1wrvppFAMMWs"
+          "current_key": "AIzaSyCDMd11PCpf8zmkRhwUEMjIG-mMTfWnJXQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "21441704756-77gmrfeiospqhqfks3jrqu8u3n1pf6eg.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "21441704756-mqq085a365m1bacm81kon9f1ds95btbq.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.tiktokTutorial"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645966001600:android:81ff1f3bb19d0b73f38425",
+        "android_client_info": {
+          "package_name": "com.example.square_up_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDMd11PCpf8zmkRhwUEMjIG-mMTfWnJXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645966001600:android:3afebd74c4edb90ff38425",
+        "android_client_info": {
+          "package_name": "com.example.square_up_fresh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDMd11PCpf8zmkRhwUEMjIG-mMTfWnJXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645966001600:android:58039deea196094df38425",
+        "android_client_info": {
+          "package_name": "com.example.tiktok_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDMd11PCpf8zmkRhwUEMjIG-mMTfWnJXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
         }
       }
     }

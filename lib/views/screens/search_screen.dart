@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_tutorial/controllers/search_controller.dart';
+import 'package:square_up_fresh/controllers/search_controller.dart' as myApp;
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/models/user.dart';
-import 'package:tiktok_tutorial/views/screens/profile_screen.dart';
+import 'package:square_up_fresh/models/user.dart';
+import 'package:square_up_fresh/views/screens/profile_screen.dart';
 
 class SearchScreen extends StatelessWidget {
   SearchScreen({Key? key}) : super(key: key);
 
-  final SearchController searchController = Get.put(SearchController());
+  final myApp.SearchController searchController = Get.put(myApp.SearchController());
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +41,7 @@ class SearchScreen extends StatelessWidget {
             : ListView.builder(
                 itemCount: searchController.searchedUsers.length,
                 itemBuilder: (context, index) {
-                  User user = searchController.searchedUsers[index];
+                  AppUser user = searchController.searchedUsers[index];
                   return InkWell(
                     onTap: () => Navigator.of(context).push(
                       MaterialPageRoute(

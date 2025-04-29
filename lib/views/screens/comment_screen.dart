@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tiktok_tutorial/constants.dart';
-import 'package:tiktok_tutorial/controllers/comment_controller.dart';
+import 'package:square_up_fresh/constants.dart';
+import 'package:square_up_fresh/controllers/comment_controller.dart';
 import 'package:timeago/timeago.dart' as tago;
 
 class CommentScreen extends StatelessWidget {
